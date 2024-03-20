@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset = 'UTF-8'>
+  <meta name="viewpoint" content="width-device-width, initial-scale = 0.1">
+  <title>Yummy</title>
+  <script defer src = 'index.js'></script>
+  <link rel="stylesheet" type="text/css" href="card.css">
+</head>
+<body>
+  <div class = 'popup-container' id = 'blur'>
+    <header>
+      <div class="header-container">
+              <div class="logo">
+                  <h1>Yummy</h1>
+              </div>
+              <nav class="navigation">
+                  <div class="navigation-list">
+                      <li class="navigation-item">
+                        <a href = 'index.html'><img src="photo/home.png" alt="Home" class="header-icon"></a>
+                        <a href="index.html" class="link-text">Home</a>
+                      </li>
+                      <li class="navigation-item">
+                        <a href = 'card.html'><img src="photo/Liked.png" alt="Cart" class="header-icon"></a>
+                        <a href="card.html" class="link-text" style="text-decoration: underline">Card</a>
+                      </li>
+                      <li class="navigation-item">
+                        <a href = 'shop.html'><img src="photo/Basket.png" alt="Cart" class="header-icon"></a>
+                        <a href="shop.html" class="link-text">Shop</a>
+                      </li>
+                      <li class="navigation-item">
+                        <a href = '#'><img src="photo/Message.png" alt="Message" class="header-icon"></a>
+                        <a href="#" class="link-text">Message</a>
+                      </li>
+                      <li class="navigation-item">
+                        <a href = '#'><img src="photo/Account.png" alt="User account" class="header-icon"></a>
+                        <a href="#" class="link-text">User</a>
+                      </li>
+                  </div>
+              </nav>
+                  <button class = 'my-burger' id = 'burger'>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </button>
+          </div>
+    </header>
+    <main>
+      <div class="shopping-cart">
+        <div class = 'card-text'>
+          <h2 class = 'card-title'>SHOPPING CART</h2>
+          <h2>2 Items</h2>
+        </div>
+          <table id = 'Table'>
+          <thead>
+              <tr>
+                  <th>Product</th>
+                  <th>Quantity</th>
+                  <th>Per 1</th>
+                  <th>Total</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>
+                    <div class = 'card-product'>
+                      <img src="photo/cauliflower.png" alt="Cauliflower">
+                      <p class="name">Cauliflower</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="button-container">
+                      <button>+</button>
+                      <span class="quantity">2</span>
+                      <button >-</button>
+                    </div>
+                  </td>
+                  <td class = 'price-cell'>
+                    <div class="price-container">
+                      <span>$7</span>
+                      <button class="remove-button">Remove</button>
+                    </div>
+                  </td>
+                  <td class="card-total">$14</td>
+              </tr>
+              <tr>
+                  <td>
+                    <div class = 'card-product'>
+                      <img src="photo/mango.png" alt="Mango">
+                      <p class="name">Mango</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="button-container">
+                      <button>+</button>
+                      <span class="quantity">1</span>
+                      <button >-</button>
+                    </div>
+                  </td>
+                  <td class = 'price-cell'>
+                    <div class="price-container">
+                      <span>$9</span>
+                      <button class="remove-button">Remove</button>
+                    </div>
+                  </td>
+                  <td class="card-total">$9</td>
+              </tr>
+          </tbody>
+      </table>
+      </div>
+      <div class="order-summary">
+        <div class = 'f-part'>
+          <h2 class = 'card-title'>ORDER SUMMARY</h2>
+          <div class="summary-items">
+              <span class="items">Items 2</span>
+              <span class="items">23$</span>
+          </div>
+          <div class="shipping-address">
+              <span class="items">Shipping address</span>
+              <input type="text" class="input-box" placeholder="Enter address">
+              <button class="apply-btn">Submit</button>
+          </div>
+          <div class="shipping-address">
+              <span class="items">Promo code</span>
+              <input type="number" class="input-box" placeholder="Enter promo code">
+              <button class="apply-btn">Apply</button>
+          </div>
+          <div class="summary-items">
+              <span class="items">Total cost</span>
+              <span class="items">23$</span>
+          </div>
+          <div class ='buybutton'></div><button class="apply-btn" >BUY</button></div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

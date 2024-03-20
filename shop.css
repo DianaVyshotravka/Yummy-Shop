@@ -1,0 +1,186 @@
+@import "index.css";
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.search{
+  background-color: #7EB664;
+}
+
+.categories-section{
+  flex-grow: 1;
+  text-align: center;
+  width: 100%;
+}
+.categories{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.offer-item{
+  background-color: #e3e6e8;
+  border-radius: 10px;
+  padding: 10px;
+
+}
+
+.offers{
+  padding: 0 10%;
+  flex-wrap: wrap;
+
+}
+
+.offer-item p{
+  font-weight: bold;
+  font-style: normal;
+}
+
+.offer-item img{
+  width: 80px;
+}
+
+.section-title{
+  text-align: center;
+  padding: 5% 0;
+}
+
+.category{
+  font-weight: bold;
+  text-align: left;
+  font-size: x-large;
+  padding-left: 10%;
+
+}
+.products-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4% 10%;
+  flex-wrap: wrap;
+}
+
+.our-product{
+  display: inline-flex;
+  flex-direction: column;
+  border: 1px solid black;
+  flex-basis: calc((100% - 80px)/3);
+  max-width: 230px;
+  border-radius: 10px;
+  padding: 2%;
+}
+.our-product img{
+  width: 150px;
+}
+.product-text{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.name{
+  padding-top: 5%;
+}
+.amount{
+  padding: 4% 0;
+}
+.name, .our-price{
+  font-weight: bold;
+  font-size: large;
+}
+.buy{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.button-container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.button-container button{
+  border: none;
+  background-color: white;
+  font-size: large;
+}
+.quantity {
+    padding: 5px 10px;
+    border: 1px solid black;
+    margin: 0 10px;
+    font-size: large;
+}
+.add-to-cart{
+  padding: 0 1%;
+}
+.add-to-cart img{
+  width: 40px;
+}
+
+.more{
+  text-align: center;
+  padding-bottom: 4%;
+}
+.more a{
+  color: black;
+  font-size: large;
+}
+
+@media (max-width: 800px) {
+  header{
+    padding-bottom: 20px;
+  }
+  .categories-section {
+    padding: 0 20px;
+  }
+  .offers{
+    gap: 40px;
+  }
+  .offer-item{
+    padding: 8px 0;
+    width:100px;
+  }
+
+  .offers{
+    padding: 0 5%;
+  }
+
+  .offer-item p{
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .offer-item img{
+    width: 60px;
+}
+  .our-product{
+    margin: 10px;
+  }
+
+  .products-container{
+    justify-content: space-between;
+  }
+
+.our-product img{
+  width: 110px;
+}
+
+.name, .our-price, .button-container button {
+  font-size: 16px;
+}
+
+.quantity {
+    font-size: 14px;
+}
+.add-to-cart img{
+  width: 30px;
+}
+
+}
+

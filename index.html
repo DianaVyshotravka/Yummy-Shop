@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+<head>
+  <meta charset = 'UTF-8'>
+  <meta name="viewpoint" content="width-device-width, initial-scale = 0.1">
+  <title>Yummy</title>
+  <script defer src = 'index.js'></script>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <div class = 'popup-container' id = 'blur'>
+      <header>
+        <div class="header-container" >
+                <div class="logo">
+                    <h1>Yummy</h1>
+                </div>
+                <nav class="navigation">
+                    <div class="navigation-list">
+                        <li class="navigation-item" id = 'menu'>
+                          <a href = 'index.html'><img src="photo/home.png" alt="Home" class="header-icon"></a>
+                          <a href="index.html" class="link-text" style="text-decoration: underline">Home</a>
+                        </li>
+                        <li class="navigation-item">
+                          <a href = 'card.html'><img src="photo/Liked.png" alt="Cart" class="header-icon"></a>
+                          <a href="card.html" class="link-text">Card</a>
+                        </li>
+                        <li class="navigation-item">
+                          <a href = 'shop.html'><img src="photo/Basket.png" alt="Cart" class="header-icon"></a>
+                          <a href="shop.html" class="link-text">Shop</a>
+                        </li>
+                        <li class="navigation-item">
+                          <a href = '#'><img src="photo/Message.png" alt="Message" class="header-icon"></a>
+                          <a href="#" class="link-text">Message</a>
+                        </li>
+                        <li class="navigation-item">
+                          <a href = '#'><img src="photo/Account.png" alt="User account" class="header-icon"></a>
+                          <a href="#" class="link-text">User</a>
+                        </li>
+                    </div>
+                </nav>
+                <!-- <div class = 'burger-menu'><img src = 'photo/burger.svg' alt = 'Burger  menu' class = 'menu-icon'></div> -->
+                <button class = 'my-burger' id = 'burger'>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </button>
+          </div>
+      </header>
+      <main>
+        <section class = 'search'>
+          <div class="search-section">
+            <select class="category-select">
+              <option value="" selected disabled hidden>All Categories</option>
+              <option value="category1">Meat</option>
+              <option value="category2">Fruits</option>
+              <option value="category3">Honey</option>
+              <option value="category4">Seeds</option>
+            </select>
+            <input type="text" class="search-box" placeholder="Search for product...">
+            <button class="search-button">Search</button>
+          </div>
+        </section>
+        <section class="shop-now">
+            <div class="video-overlay"></div>
+            <video class="video" autoplay loop muted poster="photo/poster.png">
+              <source src="photo/shop.mp4" type="video/mp4">
+            </video>
+          <div class = 'shop-now-text'>
+            <p>NATURE'S TREASURES AWAIT</p>
+          </div>
+            <div class="shop-now-content">
+              <p>LOOKING FOR FRESH <br> ORGANIC FOOD?</p>
+              <a href="shop.html" class="button">Shop now</a>
+            </div>
+        </section>
+        <section class="benefits">
+          <div class="benefit">
+            <img src="photo/Car.png" alt="Free shipping icon" style="width: 50px; height: 30px;" >
+            <p>Free shipping</p>
+          </div>
+          <div class="benefit">
+            <img src="photo/Support.png" alt="Support 24/7 icon">
+            <p>Support 24/7</p>
+          </div>
+          <div class="benefit">
+            <img src="photo/Secure.png" alt="Secure payment icon">
+            <p>Payment secure</p>
+          </div>
+          <div class="benefit">
+            <img src="photo/cashback.png" alt="Cashback 20% icon"  >
+            <p>20% Cashback </p>
+          </div>
+        </section>
+        <section class="new-offers">
+          <h2 class = 'section-title'>NEW OFFERS</h2>
+            <div class = 'offers'>
+              <div class="offer-item">
+                <img src="photo/honey.png" alt="Homemade honey with nuts">
+                <p>Homemade honey with nuts</p>
+              </div>
+              <div class="offer-item">
+                <img src="photo/pastille.png" alt="Natural pastille">
+                <p>Natural pastille</p>
+              </div>
+              <div class="offer-item">
+                <img src="photo/bags.png" alt="Eco bags">
+                <p>Eco bags</p>
+              </div>
+              <div class="offer-item">
+                <img src="photo/cups.png" alt="Eco cups">
+                <p>Eco cups</p>
+            </div>
+          </div>
+        </section>
+        <section class="trendy-foods">
+          <h2 class="section-title">TRENDY FOODS</h2>
+          <div class="food-container">
+            <div class="product-card">
+              <div class = 'price'><p>7$</p></div>
+              <div class="product">
+                <img src="photo/cauliflower.png" alt="Cauliflower">
+                <p class="name">CAULIFLOWER</p>
+                <button class="add-to-cart">add to cart</button>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class = 'price'><p>5$</p></div>
+              <div class="product">
+                <img src="photo/carrot.png" alt="Carrot">
+                <p class="name">CARROT</p>
+                <button class="add-to-cart">add to cart</button>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class = 'price'><p>8$</p></div>
+              <div class="product">
+                <img src="photo/pomegaranate.png" alt="Pomegranate">
+                <p class="name">POMEGRANATE</p>
+                <button class="add-to-cart">add to cart</button>
+              </div>
+            </div>
+            <div class="product-card">
+                <div class = 'price'><p>3$</p></div>
+                <div class="product">
+                  <img src="photo/lemon.png" alt="Lemon">
+                  <p class="name">LEMON</p>
+                  <button class="add-to-cart">add to cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+              <div class = 'price'><p>5$</p></div>
+              <div class="product">
+                <img src="photo/tomato.png" alt="Tomato">
+                <p class="name">TOMATO</p>
+                <button class="add-to-cart">add to cart</button>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class = 'price'><p>9$</p></div>
+              <div class="product">
+                <img src="photo/mango.png" alt="Mango">
+                <p class="name">MANGO</p>
+                <button class="add-to-cart">add to cart</button>
+              </div>
+            </div>
+          </div>
+        </section>
+     </main>
+      <footer>
+        <div class = 'all-info'>
+          <a href = '#' onclick="toggle()">Contact us:</a>
+          <div class="contact-us">
+            <div class="instagram">
+              <img src="photo/inst.png" alt="Instagram">
+              <a href="mailto:myour.yummy@gmail.com">@your_yummy</a>
+            </div>
+            <div class="email">
+              <img src="photo/gmail.png" alt="Email">
+              <a href="mailto:myour.yummy@gmail.com">your.yummy@gmail.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="info">
+          <ul>
+            <li>
+              <span><a href="#">Privacy Policy</a></span> |
+              <span><a href="#">Terms of Use</a></span>
+            </li>
+          </ul>
+          <div class="copyright">
+            <p>&copy; 2024 Diana Vyshotravka</p>
+            <img src="photo/frog.png" alt="Frog">
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div id = 'popup'>
+      <div class = 'container'>
+          <div class = 'popup-header'>
+            <h2 class = 'section-title'>LET'S TALK</h2>
+            <img src="photo/talk.png" alt="Talk">
+          </div>
+          <div class = 'client-info'>
+            <form class = 'form' action='#'>
+              <div class = 'form-first'>
+                <label for="name">Your Name</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter name"><br>
+                <label for="email">Your Email</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter email">
+              </div>
+              <div class = 'form-second'>
+                <label for="message">Your Message</label><br>
+                <textarea id="message" name="message" placeholder="Type smth you want..."></textarea>
+              </div>
+            </form>
+          </div>
+        <div class = 'send-button'><button id = 'search-button' type="submit" onclick="toggle()">Send</button></div>
+      </div>
+    </div>
+    <script type = 'text/javascript'>
+      function toggle(){
+        var blur = document.getElementById('blur');
+        blur.classList.toggle('active');
+        var popup = document.getElementById('popup');
+        popup.classList.toggle('active');
+      }
+    </script>
+  </div>
+</body>
+</html>
