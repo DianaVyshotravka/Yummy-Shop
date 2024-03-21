@@ -425,6 +425,9 @@ main {
 .add-to-cart:hover {
   background-color: #3e8e41;
 }
+.product:hover{
+  background-color: #ede3b2;
+}
 footer {
   display: flex;
   justify-content: space-between;
@@ -570,6 +573,9 @@ textarea{
 .send-button{
   text-align: center;
   padding: 7%;
+}
+#search-button:hover {
+  background-color: #31593d;
 }
 
 #search-button{

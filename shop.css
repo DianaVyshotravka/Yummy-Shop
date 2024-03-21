@@ -74,6 +74,9 @@ body {
   border-radius: 10px;
   padding: 2%;
 }
+.our-product:hover{
+  background-color: #c8c9cc;
+}
 .our-product img{
   width: 150px;
 }
@@ -107,7 +110,7 @@ body {
 }
 .button-container button{
   border: none;
-  background-color: white;
+  background-color: transparent;
   font-size: large;
 }
 .quantity {
@@ -161,6 +164,10 @@ body {
 }
   .our-product{
     margin: 10px;
+  }
+
+  .category{
+    font-size: 15px;
   }
 
   .products-container{
